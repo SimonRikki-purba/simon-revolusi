@@ -6,7 +6,7 @@ class database{
     var $pass = "";
     var $db = "user";
     var $con ;
-
+    //Belajar Github
     function __construct(){
         $this->con=mysqli_connect($this->host, $this->uname, $this->pass,$this->db);
         mysqli_select_db($this->con,$this->db);
