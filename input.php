@@ -5,7 +5,7 @@ $db = new database();
 <h3> Tambah Data Mahasiswa</h3>
 
 <form action = "proses.php?aksi=tambah" method="post">
-
+//belajar GITHUB
 <table>
     <tr>
         <td>Nama</td>
